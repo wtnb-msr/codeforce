@@ -44,7 +44,7 @@ class SolverUtil {
   public void cleanup() throws Exception {
     reader.close();
     writer.flush();
-    reader.close();
+    writer.close();
   }
 
   public String readLine() throws Exception {
