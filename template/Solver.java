@@ -7,15 +7,15 @@ public class Solver extends SolverUtil {
 
   public void solve() throws Exception {
     String[] token = readLine().split(" ");
-    int input = Integer.parseInt(token[0]);
+    int input = toInt(token[0]);
 
     int numLines = 0;
     for (int i = 0; i < numLines; i++) {
       token = readLine().split(" ");
     }
 
-    println("result");
-    println(1);
+    println("= input =");
+    println(input);
   }
 
   public static void main(String[] args) {
